@@ -12124,6 +12124,12 @@ pre .code {
   color: #212529;
 }
 
+.header-text {
+  font-weight: normal;
+  opacity: .8;
+  color: #212529;
+}
+
 .header-mini {
   min-height: 24rem;
   height: 24rem;
@@ -12231,4 +12237,20 @@ pre .code {
 
 .section-lg {
   padding: 100px 0 !important;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-linear-gradient(bottom, #fff 0%, rgba(105, 90, 166, 0.35) 99%, rgba(105, 90, 166, 0.5) 100%);
+  background-image: linear-gradient(to top, #fff 0%, rgba(105, 90, 166, 0.35) 99%, rgba(105, 90, 166, 0.5) 100%);
+}
+
+.header-title h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  opacity: .8;
+  color: #212529;
 }
